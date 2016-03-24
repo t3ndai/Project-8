@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE1A10171CA03B6100D49CB0 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = FE1A10161CA03B6100D49CB0 /* level1.txt */; };
 		FEC3B3331C84BF54003FDC65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3B3321C84BF54003FDC65 /* AppDelegate.swift */; };
 		FEC3B3351C84BF54003FDC65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3B3341C84BF54003FDC65 /* ViewController.swift */; };
-		FEC3B3381C84BF54003FDC65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC3B3361C84BF54003FDC65 /* Main.storyboard */; };
+		FEC3B3381C84BF54003FDC65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC3B3361C84BF54003FDC65 /* Main.storyboard */; settings = {ASSET_TAGS = (1001, ); }; };
 		FEC3B33A1C84BF54003FDC65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC3B3391C84BF54003FDC65 /* Assets.xcassets */; };
 		FEC3B33D1C84BF54003FDC65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC3B33B1C84BF54003FDC65 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE1A10161CA03B6100D49CB0 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 		FEC3B32F1C84BF54003FDC65 /* Project 8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 8.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC3B3321C84BF54003FDC65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEC3B3341C84BF54003FDC65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				FEC3B3341C84BF54003FDC65 /* ViewController.swift */,
 				FEC3B3361C84BF54003FDC65 /* Main.storyboard */,
 				FEC3B3391C84BF54003FDC65 /* Assets.xcassets */,
+				FE1A10161CA03B6100D49CB0 /* level1.txt */,
 				FEC3B33B1C84BF54003FDC65 /* LaunchScreen.storyboard */,
 				FEC3B33E1C84BF54003FDC65 /* Info.plist */,
 			);
@@ -90,6 +93,9 @@
 		FEC3B3271C84BF54003FDC65 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1001,
+				);
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Tendai Prince Dzonga";
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEC3B33D1C84BF54003FDC65 /* LaunchScreen.storyboard in Resources */,
+				FE1A10171CA03B6100D49CB0 /* level1.txt in Resources */,
 				FEC3B33A1C84BF54003FDC65 /* Assets.xcassets in Resources */,
 				FEC3B3381C84BF54003FDC65 /* Main.storyboard in Resources */,
 			);
@@ -286,6 +293,7 @@
 				FEC3B3431C84BF54003FDC65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

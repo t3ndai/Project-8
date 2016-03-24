@@ -1,0 +1,10 @@
+Swifty Words IOS App
+Concepts:
+addTarge(),
+enumerate()
+countElements
+find()
+join()
+property observers 
+range operators 
+-still having an error out-of-range for one of the arrays 
